@@ -1,6 +1,6 @@
 class año{
   bisiesto(year){
-    if(year==4 || year==8)
+    if(year%4==0)
       return "este año es bisiesto";
       return "este año no es bisiesto";
   }
