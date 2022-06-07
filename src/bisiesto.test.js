@@ -1,4 +1,4 @@
-import añobi from "./añobisiesto";
+import añobi from "./bisiesto";
 
 describe("Saber si un año es bisiesto", () => {
     const  year= new añobi();
