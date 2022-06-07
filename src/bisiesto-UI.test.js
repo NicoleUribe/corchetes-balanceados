@@ -22,5 +22,13 @@ describe("Año bisiesto html", () => {
     const resultado = document.querySelector("#resultado-div");
     expect(resultado.innerHTML).toEqual("este año no es bisiesto");
   });
+  it("Si el año es 2022 dice que no es bisiesto", () => {
+    const year = document.querySelector("#years");
+    year.value=2022;
+    const boton = document.querySelector("#botoncalcular");
+    boton.click();
 
+    const resultado = document.querySelector("#resultado-div");
+    expect(resultado.innerHTML).toEqual("este año no es bisiesto");
+  });
 });
