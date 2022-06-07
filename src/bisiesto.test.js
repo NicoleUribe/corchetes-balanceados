@@ -11,4 +11,7 @@ describe("Saber si un año es bisiesto", () => {
   it("deberia devolver este año es bisiesto para el año 8", () => {
     expect( year.bisiesto(8)).toEqual("este año es bisiesto");
   });
+  it("deberia devolver este año es bisiesto para el año 12", () => {
+    expect( year.bisiesto(12)).toEqual("este año es bisiesto");
+  });
 })
